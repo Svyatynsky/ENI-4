@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220713133657">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo logo"><picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.jpg" alt=""></picture></a>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="firstscreen" style="background-image: url(img/home4/firstscreen/bg.jpg);">
+				<div class="firstscreen__container">
+					<div class="firstscreen__title">
+						<span>Due to rising fuel prices,</span>
+						<span>BP is holding a giveaway for</span>
+						<span>gift fuel cards to support UK residents.</span>
+					</div>
+					<div data-popup="#popup-congratulations" class="firstscreen__subtitle">
+						You can win a gift card
+						<span>£100, £200, £500, £1000</span>
+					</div>
+				</div>
+
+				<div class="firstscreen__media-decor">
+					<picture><source srcset="img/home4/firstscreen/1.webp" type="image/webp"><img class="firstscreen__media-decor_pc" src="img/home4/firstscreen/1.png" alt=""></picture>
+					<picture><source srcset="img/home4/firstscreen/1-mobile.webp" type="image/webp"><img class="firstscreen__media-decor_mobile" src="img/home4/firstscreen/1-mobile.png" alt=""></picture>
+				</div>
+				<div class="firstscreen__media-card">
+					<picture><source srcset="img/home4/firstscreen/2.webp" type="image/webp"><img class="firstscreen__media-card_pc" src="img/home4/firstscreen/2.png" alt=""></picture>
+					<picture><source srcset="img/home4/firstscreen/2-mobile.webp" type="image/webp"><img class="firstscreen__media-card_mobile" src="img/home4/firstscreen/2-mobile.png" alt=""></picture>
+				</div>
+			</div>
+
+			<div class="roulette" style="background-image: url(img/home4/roulette/bg.jpg);">
+				<div class="roulette__container">
+					<div class="roulette__title title">Spin the wheel to try your luck</div>
+					<div class="roulette__wheel wheel">
+						<picture><source srcset="img/common/roulette-wheel.webp" type="image/webp"><img id="wheel-image" class="wheel__image" src="img/common/roulette-wheel.png" alt=""></picture>
+						<div id="wheel-button" class="roulette__button wheel__button"><picture><source srcset="img/common/roulette-button.webp" type="image/webp"><img src="img/common/roulette-button.png" alt=""></picture></div>
+					</div>
+				</div>
+				<div id="popup-try" class="popup popup-try">
+					<div class="popup-try__wrapper popup__wrapper">
+						<div class="popup-try__content popup__content">
+							<div class="popup-try__title popup__title title">TRY AGAIN</div>
+							<div class="popup-try__wheel"><picture><source srcset="img/popup/try-wheel.webp" type="image/webp"><img src="img/popup/try-wheel.png" alt=""></picture></div>
+							<button class="popup-try__button popup__button button">RESPIN</button>
+						</div>
+					</div>
+				</div>
+				<div id="popup-congratulations" class="popup popup-congratulations">
+					<div class="popup-congratulations__wrapper popup__wrapper">
+						<div class="popup-congratulations__content popup__content">
+							<div class="popup-congratulations__title popup__title title">Congratulations!</div>
+							<p class="popup-congratulations__text text">Click on the button to get your prize!</p>
+							<div class="popup-congratulations__prize"><picture><source srcset="img/popup/congratulations-prize.webp" type="image/webp"><img src="img/popup/congratulations-prize.jpg" alt=""></picture></div>
+							<a href="https://google.com" target="_blank" class="popup-congratulations__button popup__button button">GET REWARD</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="previous-winners" style="background-image: url(img/home4/previous-winners/bg.png);">
+				<div class="previous-winners__container">
+					<div class="previous-winners__title title">Recent winners</div>
+					<div class="previous-winners__images">
+						<div class="previous-winners__image"><picture><source srcset="img/home4/previous-winners/1.webp" type="image/webp"><img src="img/home4/previous-winners/1.jpg" alt=""></picture></div>
+						<div class="previous-winners__image"><picture><source srcset="img/home4/previous-winners/2.webp" type="image/webp"><img src="img/home4/previous-winners/2.jpg" alt=""></picture></div>
+						<div class="previous-winners__image"><picture><source srcset="img/home4/previous-winners/3.webp" type="image/webp"><img src="img/home4/previous-winners/3.jpg" alt=""></picture></div>
+						<div class="previous-winners__image"><picture><source srcset="img/home4/previous-winners/4.webp" type="image/webp"><img src="img/home4/previous-winners/4.jpg" alt=""></picture></div>
+					</div>
+					<a data-goto=".roulette" href="#" class="previous-winners__link button">TRY U LUCK</a>
+				</div>
+			</div>
+		</main>
+	</div>
+
+
+
+	<script src="js/app.min.js?_v=20220713133657"></script>
+
+</body>
+
+</html>
